@@ -20,3 +20,11 @@ function reverse(arr){
 let array=["Good","morning",12,0.3,true,false]
 let reversedArray=reverse(array);
 console.log(reversedArray)
+
+
+let num=[29,23,45,5,89,97]
+function reverses (num){
+let rev=num.reverse();
+console.log(rev)
+}
+reverses(num)

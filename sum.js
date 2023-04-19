@@ -10,4 +10,8 @@ let sum =0;
  }
  console.log(sum);
 
- 
+ //method 2
+
+if (condition) {
+   
+}

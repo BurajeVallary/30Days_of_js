@@ -14,6 +14,7 @@ function filterNegativeNumbers(arr) {
     return arr.filter(num => num >= 0);
   }
 
-const numbers = [1,2,3,-8, -10, -8, 10, 16];
-const filteredNumbers = filterNegativeNumbers(numbers);
-console.log(filteredNumbers);
+
+  const arr = [1,2,3,-8, -10, -8, 10, 16];
+  const filteredNumbers = filterNegativeNumbers(arr);
+  console.log(filteredNumbers);
