@@ -4,7 +4,7 @@
 
 var number=[40,10,60,80];
 number = number.sort();
-console.log(number)
+console.log(number);
 
 
 //Create a function that reverses an array

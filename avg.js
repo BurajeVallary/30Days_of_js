@@ -1,7 +1,7 @@
 
 
 
-//Write a function in JavaScript that calculates the average of numbers
+//Write a program in JavaScript that calculates the average of numbers
 
 
 const arr = [30, 80, 79, 94, 80];

@@ -18,3 +18,17 @@ const vowelCount = countVowels(str);
 console.log(vowelCount);
 
 //method 2
+
+
+function countVowel(str) {
+  const vowels = "aeiouAEIOU";
+  let count = 0;
+  for (let z = 0; z < str.length; z++) {
+    if (vowels.includes(str[z])) {
+      count++;
+    }
+  }
+  return count;
+}
+console.log(countVowel("hello world")); 
+console.log(countVowel("welcome to javascript")); 

@@ -8,7 +8,7 @@ function printEvenNumbers() {
   printEvenNumbers();
 
   //opt 2
-  //Print all the even numbers between 0-20
+  // Print all the even numbers between 0-20
 
   function geteve() {
     for (let i = 0; i < 20; i+=2) {
@@ -16,6 +16,17 @@ function printEvenNumbers() {
         
     }
   }
-  geteve()
+ 
+  //print all the odd numbers btw 0-100
+
+  function getodd() {
+    for (let v = 1; v < 20; v+=2) {
+      
+      console.log(v)
+    }
+   
+  }
+  getodd()
+ 
 
  
