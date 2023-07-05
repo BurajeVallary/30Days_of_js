@@ -5,7 +5,7 @@ class PossibleFruit {
         this.power = power;
         this.season = season;
     }
-}
+}j
 
 let database = [];
 let fruit1 = new PossibleFruit("mango", "Strength", "Strong", "wet");
